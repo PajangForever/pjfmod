@@ -1,5 +1,8 @@
 package name.pjfmod;
 
+import name.pjfmod.registry.ModBlocks;
+import name.pjfmod.registry.ModItemGroup;
+import name.pjfmod.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -9,6 +12,7 @@ public class Pjfmod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
+	public static final String MOD_ID = "pjfmod";
     public static final Logger LOGGER = LoggerFactory.getLogger("pjfmod");
 
 	@Override
@@ -18,5 +22,21 @@ public class Pjfmod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Pajang! It's Fabric world!");
+		ModItemGroup.registerModItemGroup();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
