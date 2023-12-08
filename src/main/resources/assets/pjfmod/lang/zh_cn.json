@@ -1,5 +1,9 @@
 {
   "item.pjfmod.pjftest": "测试 for pjf",
+  "item.pjfmod.raw_sliver": "粗银",
+  "item.pjfmod.sliver_ingot": "银锭",
   "itemgroup.pjfmod.pjftest": "pjf测试组",
-  "block.pjfmod.pjfblock": "pjf测试方块"
+  "block.pjfmod.pjfblock": "pjf测试方块",
+  "block.pjfmod.sliver_block": "银块",
+  "block.pjfmod.sliver_ore": "银矿石"
 }

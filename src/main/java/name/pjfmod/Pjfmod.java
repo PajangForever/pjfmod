@@ -1,8 +1,8 @@
 package name.pjfmod;
 
-import name.pjfmod.registry.ModBlocks;
-import name.pjfmod.registry.ModItemGroup;
-import name.pjfmod.registry.ModItems;
+import name.pjfmod.zhucexiangmu.FangKuai;
+import name.pjfmod.zhucexiangmu.WuPinZu;
+import name.pjfmod.zhucexiangmu.WuPin;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -22,9 +22,9 @@ public class Pjfmod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Pajang! It's Fabric world!");
-		ModItemGroup.registerModItemGroup();
-		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
+		WuPinZu.registerModItemGroup();
+		WuPin.registerModItems();
+		FangKuai.registerModBlocks();
 	}
 }
 

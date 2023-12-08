@@ -1,5 +1,9 @@
 {
   "item.pjfmod.pjftest": "test for pjf",
+  "item.pjfmod.raw_sliver": "raw sliver",
+  "item.pjfmod.sliver_ingot": "sliver ingot",
   "itemgroup.pjfmod.pjftest": "pjf testing group",
-  "block.pjfmod.pjfblock": "test block for pjf"
+  "block.pjfmod.pjfblock": "test block for pjf",
+  "block.pjfmod.sliver_block": "block of sliver",
+  "block.pjfmod.sliver_ore": "sliver ore"
 }
