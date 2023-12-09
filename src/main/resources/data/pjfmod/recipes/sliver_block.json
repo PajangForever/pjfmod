@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "pjfmod:sliver_ingot"
+    }
+  },
+  "result": {
+    "item": "pjfmod:sliver_block"
+  }
+}

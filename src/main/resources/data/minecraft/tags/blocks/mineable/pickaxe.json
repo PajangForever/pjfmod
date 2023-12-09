@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "pjfmod:pjfblock"
+    "pjfmod:pjfblock",
+    "pjfmod:sliver_block",
+    "pjfmod:sliver_ore"
+
   ]
 }
 

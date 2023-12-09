@@ -7,16 +7,16 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class WuPinZu {
-    public static ItemGroup PJFTEST =
+public class WuPinZuZhuCe {
+    public static ItemGroup PJFGROUP =
             FabricItemGroup.builder(
                     new Identifier(Pjfmod.MOD_ID,"pjftest")
                     )
             .displayName(
-                    Text.translatable("itemgroup.pjfmod.pjftest")
+                    Text.translatable("itemgroup.pjfmod.pjfgroup")
             )
             .icon(
-                    () -> new ItemStack(WuPin.PJFTEST)
+                    () -> new ItemStack(WuPinZhuCe.PJFTESTITEM)
             ).build();
     public static void  registerModItemGroup(){
         Pjfmod.LOGGER.debug("Pajang said that Registering mod item group for "+Pjfmod.MOD_ID);

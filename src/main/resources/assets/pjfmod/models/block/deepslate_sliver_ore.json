@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pjfmod:block/deepslate_sliver_ore"
+  }
+}
