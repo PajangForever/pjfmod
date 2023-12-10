@@ -7,6 +7,9 @@
   "block.pjfmod.pjfblock": "测试方块Block",
   "block.pjfmod.sliver_block": "银块",
   "block.pjfmod.sliver_ore": "银矿石",
+  "block.pjfmod.raw_sliver_block": "粗银块",
+  "block.pjfmod.deepslate_sliver_ore": "深板岩银矿",
   "tips.pjfmod.pjftest": "测试物品提示ItemTips"
+
 
 }

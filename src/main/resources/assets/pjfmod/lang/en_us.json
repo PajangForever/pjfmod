@@ -7,5 +7,7 @@
   "block.pjfmod.pjfblock": "test block for pjf",
   "block.pjfmod.sliver_block": "block of sliver",
   "block.pjfmod.sliver_ore": "sliver ore",
+  "block.pjfmod.raw_sliver_block": "raw sliver block",
+  "block.pjfmod.deepslate_sliver_ore": "deepslate sliver ore",
   "tips.pjfmod.pjftest": "Testing ItemTips"
 }

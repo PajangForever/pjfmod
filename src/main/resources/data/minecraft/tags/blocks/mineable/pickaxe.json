@@ -3,7 +3,9 @@
   "values": [
     "pjfmod:pjfblock",
     "pjfmod:sliver_block",
-    "pjfmod:sliver_ore"
+    "pjfmod:sliver_ore",
+    "pjfmod:deepslate_sliver_ore",
+    "pjfmod:raw_sliver_block"
 
   ]
 }

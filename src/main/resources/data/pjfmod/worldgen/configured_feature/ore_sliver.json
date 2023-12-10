@@ -15,7 +15,7 @@
       },
       {
         "state": {
-          "Name": "pjfmod:sliver_block"
+          "Name": "pjfmod:deepslate_sliver_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
