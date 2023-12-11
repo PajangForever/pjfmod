@@ -1,4 +1,4 @@
-package name.pjfmod.zhucexiangmu;
+package name.pjfmod.zhuCeXiangMu;
 
 import name.pjfmod.Pjfmod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -19,7 +19,7 @@ public class FangKuaiZhuCe {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()),
             WuPinZuZhuCe.PJFGROUP);
     public static final Block DEEPSLATE_SLIVER_ORE = registerBlock("deepslate_sliver_ore",
-            new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).strength(5.0f).requiresTool()),
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5.0f).requiresTool()),
             WuPinZuZhuCe.PJFGROUP);
     public static final Block RAW_SLIVER_BLOCK = registerBlock("raw_sliver_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()),
@@ -37,7 +37,7 @@ public class FangKuaiZhuCe {
                 new Identifier(Pjfmod.MOD_ID,name),
                 block);
     }
-    public static void registerModBlocks() {
+    public static void zhuCeSuoYouFangKuai() {
         Pjfmod.LOGGER.debug("Pajang said that Registering mod blocks for" + Pjfmod.MOD_ID);
     }
 }

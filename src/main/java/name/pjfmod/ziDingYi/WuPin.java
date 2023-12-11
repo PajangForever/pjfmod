@@ -1,4 +1,4 @@
-package name.pjfmod.zidingyi;
+package name.pjfmod.ziDingYi;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
@@ -14,11 +14,11 @@ import net.minecraft.world.World;
 import java.util.List;
 
 public class WuPin extends Item {
+    public String tipsKey;
     public WuPin(Settings settings,String itemTipsKey) {
         super(settings);
-        tipsKey=itemTipsKey;
+        this.tipsKey=itemTipsKey;
     }
-    public String tipsKey;
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand) {
         playerEntity.playSound(SoundEvents.ENTITY_VILLAGER_NO, 1.0F, 1.0F);

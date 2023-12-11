@@ -3,11 +3,14 @@
   "item.pjfmod.raw_sliver": "raw sliver",
   "item.pjfmod.sliver_ingot": "sliver ingot",
   "item.pjfmod.sliver_nugget": "sliver nugget",
+  "item.pjfmod.sliver_sword": "sliver_sword",
+  "item.pjfmod.sliver_pickaxe": "sliver_pickaxe",
   "itemgroup.pjfmod.pjfgroup": "pjf testing group",
   "block.pjfmod.pjfblock": "test block for pjf",
   "block.pjfmod.sliver_block": "block of sliver",
   "block.pjfmod.sliver_ore": "sliver ore",
   "block.pjfmod.raw_sliver_block": "raw sliver block",
   "block.pjfmod.deepslate_sliver_ore": "deepslate sliver ore",
-  "tips.pjfmod.pjftest": "Testing ItemTips"
+  "tips.pjfmod.pjftest": "Testing ItemTips",
+  "generator.pjfmod.sliver_world": "Sliver World"
 }

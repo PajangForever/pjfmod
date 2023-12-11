@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "sliver_ingot",
   "ingredient": {
     "item": "pjfmod:raw_sliver"
   },

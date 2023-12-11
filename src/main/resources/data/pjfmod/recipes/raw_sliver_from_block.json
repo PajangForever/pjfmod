@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "raw_sliver_ingot",
   "ingredients": [
     {
-      "item": "pjfmod:sliver_ingot"
+      "item": "pjfmod:raw_sliver_block"
     }
   ],
   "result": {
-    "item": "pjfmod:sliver_nugget",
+    "item": "pjfmod:raw_sliver",
     "count": 9
   }
 }

@@ -1,4 +1,4 @@
-package name.pjfmod.zhucexiangmu;
+package name.pjfmod.zhuCeXiangMu;
 
 import name.pjfmod.Pjfmod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -16,9 +16,9 @@ public class WuPinZuZhuCe {
                     Text.translatable("itemgroup.pjfmod.pjfgroup")
             )
             .icon(
-                    () -> new ItemStack(WuPinZhuCe.PJFTESTITEM)
+                    () -> new ItemStack(WuPinZhuCe.PJF_TEST_ITEM)
             ).build();
-    public static void  registerModItemGroup(){
+    public static void zhuCeSuoYouWuPinZu(){
         Pjfmod.LOGGER.debug("Pajang said that Registering mod item group for "+Pjfmod.MOD_ID);
     }
 }

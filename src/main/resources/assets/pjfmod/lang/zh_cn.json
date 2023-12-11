@@ -3,13 +3,15 @@
   "item.pjfmod.raw_sliver": "粗银",
   "item.pjfmod.sliver_ingot": "银锭",
   "item.pjfmod.sliver_nugget": "银粒",
+  "item.pjfmod.sliver_sword": "银剑",
+  "item.pjfmod.sliver_pickaxe": "银镐",
   "itemgroup.pjfmod.pjfgroup": "pjf测试组",
   "block.pjfmod.pjfblock": "测试方块Block",
   "block.pjfmod.sliver_block": "银块",
   "block.pjfmod.sliver_ore": "银矿石",
   "block.pjfmod.raw_sliver_block": "粗银块",
-  "block.pjfmod.deepslate_sliver_ore": "深板岩银矿",
-  "tips.pjfmod.pjftest": "测试物品提示ItemTips"
-
+  "block.pjfmod.deepslate_sliver_ore": "深层银矿石",
+  "tips.pjfmod.pjftest": "测试物品提示ItemTips",
+  "generator.pjfmod.sliver_world": "银色世界"
 
 }
