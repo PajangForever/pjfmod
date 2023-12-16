@@ -1,0 +1,44 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "sides": "pjfmod:block/sliver_block",
+    "tops": "minecraft:block/iron_block",
+    "particle": "pjfmod:block/sliver_block"
+  },
+  "elements": [
+    {
+      "from": [
+        6.4,
+        0,
+        6.4
+      ],
+      "to": [
+        9.6,
+        12.8,
+        9.6
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#tops"
+        },
+        "down": {
+          "texture": "#tops",
+          "cullface": "down"
+        },
+        "east": {
+          "texture": "#sides"
+        },
+        "north": {
+          "texture": "#sides"
+        },
+        "south": {
+          "texture": "#sides"
+        },
+        "west": {
+          "texture": "#sides"
+        }
+      }
+    }
+  ]
+}

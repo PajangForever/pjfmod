@@ -1,0 +1,44 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "tops": "minecraft:block/diamond_block",
+    "sides": "minecraft:block/gold_block",
+    "particle": "#sides"
+  },
+  "elements": [
+    {
+      "from": [
+        6.4,
+        0,
+        6.4
+      ],
+      "to": [
+        9.6,
+        12.8,
+        9.6
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#tops"
+        },
+        "down": {
+          "texture": "#tops",
+          "cullface": "down"
+        },
+        "east": {
+          "texture": "#sides"
+        },
+        "north": {
+          "texture": "#sides"
+        },
+        "south": {
+          "texture": "#sides"
+        },
+        "west": {
+          "texture": "#sides"
+        }
+      }
+    }
+  ]
+}

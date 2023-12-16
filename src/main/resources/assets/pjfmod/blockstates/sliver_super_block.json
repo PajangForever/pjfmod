@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": {"model": "pjfmod:block/sliver_super_block_unpowered"},
+    "powered=true": {"model": "pjfmod:block/sliver_super_block_powered"}
+  }
+}

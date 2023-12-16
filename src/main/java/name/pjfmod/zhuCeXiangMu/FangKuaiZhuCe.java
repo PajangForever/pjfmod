@@ -1,6 +1,7 @@
 package name.pjfmod.zhuCeXiangMu;
 
 import name.pjfmod.Pjfmod;
+import name.pjfmod.ziDingYi.SliverSuperBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -27,13 +28,15 @@ public class FangKuaiZhuCe {
     public static final Block SLIVER_BLOCK = registerBlock("sliver_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
             WuPinZuZhuCe.PJFGROUP);
-    public static Block registerBlock(String name, Block block, ItemGroup... itemGroups){
-        WuPinZhuCe.registerItem(
-                name,
+    public static final SliverSuperBlock SLIVER_SUPER_BLOCK = registerBlock("sliver_super_block",
+            new SliverSuperBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f)),
+            WuPinZuZhuCe.PJFGROUP);
+
+    public static <T extends Block> T registerBlock(String name, T block, ItemGroup... itemGroups){
+        WuPinZhuCe.registerItem(name,
                 new BlockItem(block,new FabricItemSettings()),
                 itemGroups);
-        return Registry.register(
-                Registries.BLOCK,
+        return Registry.register(Registries.BLOCK,
                 new Identifier(Pjfmod.MOD_ID,name),
                 block);
     }

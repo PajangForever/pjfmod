@@ -3,9 +3,11 @@ package name.pjfmod.zhuCeXiangMu;
 import name.pjfmod.Pjfmod;
 import name.pjfmod.ziDingYi.Gao;
 import name.pjfmod.ziDingYi.SliverGongJuCaiLiao;
+import name.pjfmod.ziDingYi.SliverKuiJiaCaiLiao;
 import name.pjfmod.ziDingYi.WuPin;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -27,16 +29,29 @@ public class WuPinZhuCe {
             WuPinZuZhuCe.PJFGROUP);
     public static final Item SLIVER_SWORD=registerItem("sliver_sword",
             new SwordItem(SliverGongJuCaiLiao.SLIVER_MATERIAL,
-                    3,
-                    -2.4f,
-                    new Item.Settings().maxDamage(1000)),
+                    3, -2.4f, new Item.Settings().maxDamage(1000)),
             WuPinZuZhuCe.PJFGROUP);
     public static final Item SLIVER_PICKAXE=registerItem("sliver_pickaxe",
             new PickaxeItem(SliverGongJuCaiLiao.SLIVER_MATERIAL,
-                    1,
-                    -2.8f,
-                    new Item.Settings().maxDamage(1000)),
+                    1, -2.8f, new Item.Settings().maxDamage(1000)),
             WuPinZuZhuCe.PJFGROUP);
+    public static final Item SLIVER_HELMET = registerItem("sliver_helmet",
+            new ArmorItem(SliverKuiJiaCaiLiao.SLIVER_ARMOR_MATERIAL,
+                    EquipmentSlot.HEAD, new Item.Settings()),
+            WuPinZuZhuCe.PJFGROUP);
+    public static final Item SLIVER_CHESTPLATE = registerItem("sliver_chestplate",
+            new ArmorItem(SliverKuiJiaCaiLiao.SLIVER_ARMOR_MATERIAL,
+                    EquipmentSlot.CHEST, new Item.Settings()),
+            WuPinZuZhuCe.PJFGROUP);
+    public static final Item SLIVER_LEGGINGS = registerItem("sliver_leggings",
+            new ArmorItem(SliverKuiJiaCaiLiao.SLIVER_ARMOR_MATERIAL,
+                    EquipmentSlot.LEGS, new Item.Settings()),
+            WuPinZuZhuCe.PJFGROUP);
+    public static final Item SLIVER_BOOTS = registerItem("sliver_boots",
+            new ArmorItem(SliverKuiJiaCaiLiao.SLIVER_ARMOR_MATERIAL,
+                    EquipmentSlot.FEET, new Item.Settings()),
+            WuPinZuZhuCe.PJFGROUP);
+
     public static <T extends Item> T registerItem(String name, T item, ItemGroup... itemGroups) {
         T registeredItem = Registry.register(
                 Registries.ITEM,

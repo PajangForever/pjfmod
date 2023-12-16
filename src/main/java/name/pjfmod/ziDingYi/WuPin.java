@@ -21,7 +21,13 @@ public class WuPin extends Item {
     }
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand) {
-        playerEntity.playSound(SoundEvents.ENTITY_VILLAGER_NO, 1.0F, 1.0F);
+        if(world.isClient()){
+            playerEntity.playSound(SoundEvents.ENTITY_VILLAGER_NO, 1.0F, 1.0F);
+        }
+        else {
+            playerEntity.sendMessage(Text.literal("OUCH!"), false);
+        }
+        //客户端和服务端要分开不然会弹两次文本
         return TypedActionResult.success(playerEntity.getStackInHand(hand));
     }
     @Override
