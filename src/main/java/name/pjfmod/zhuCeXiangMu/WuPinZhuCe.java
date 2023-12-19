@@ -1,7 +1,6 @@
 package name.pjfmod.zhuCeXiangMu;
 
 import name.pjfmod.Pjfmod;
-import name.pjfmod.ziDingYi.Gao;
 import name.pjfmod.ziDingYi.SliverGongJuCaiLiao;
 import name.pjfmod.ziDingYi.SliverKuiJiaCaiLiao;
 import name.pjfmod.ziDingYi.WuPin;
@@ -12,6 +11,8 @@ import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+
+import static name.pjfmod.zhuCeXiangMu.FangKuaiZhuCe.SLIVER_CROP_BLOCK;
 
 
 public class WuPinZhuCe {
@@ -51,6 +52,9 @@ public class WuPinZhuCe {
             new ArmorItem(SliverKuiJiaCaiLiao.SLIVER_ARMOR_MATERIAL,
                     EquipmentSlot.FEET, new Item.Settings()),
             WuPinZuZhuCe.PJFGROUP);
+    public static final Item SLIVER_SEEDS = registerItem("sliver_seeds",
+            new AliasedBlockItem(SLIVER_CROP_BLOCK, new Item.Settings()),
+            WuPinZuZhuCe.PJFGROUP);
 
     public static <T extends Item> T registerItem(String name, T item, ItemGroup... itemGroups) {
         T registeredItem = Registry.register(
@@ -64,34 +68,6 @@ public class WuPinZhuCe {
         }
         return registeredItem;
     }
-    /*
-    public static Item registerItem(String name, Item item, ItemGroup... itemGroups){
-        Item registeredItem = Registry.register(
-                Registries.ITEM,
-                new Identifier(Pjfmod.MOD_ID,name),
-                item);
-        for (ItemGroup itemGroup: itemGroups){
-            ItemGroupEvents.
-                    modifyEntriesEvent(itemGroup).
-                    register(entries -> entries.add(registeredItem));
-        }
-        return registeredItem;
-    }
-    */
-    /*
-    public static WuPin zhuCeWuPin(String name, WuPin item, ItemGroup... itemGroups){
-        WuPin zhuCeDeWuPin = Registry.register(
-                Registries.ITEM,
-                new Identifier(Pjfmod.MOD_ID,name),
-                item);
-        for (ItemGroup itemGroup: itemGroups){
-            ItemGroupEvents.
-                    modifyEntriesEvent(itemGroup).
-                    register(entries -> entries.add(zhuCeDeWuPin));
-        }
-        return zhuCeDeWuPin;
-    }
-    */
 
     public static void zhuCeSuoYouWuPin(){
         Pjfmod.LOGGER.debug("Pajang said that Registering mod items for"+Pjfmod.MOD_ID);

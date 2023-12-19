@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "pjfmod:block/raw_sliver_block"
+  }
+}

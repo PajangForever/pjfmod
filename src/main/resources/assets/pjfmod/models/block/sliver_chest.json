@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "pjfmod:block/sliver_chest_top",
+    "side": "pjfmod:block/sliver_chest_side",
+    "top": "pjfmod:block/sliver_chest_top"
+  }
+}
