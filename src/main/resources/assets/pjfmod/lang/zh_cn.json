@@ -9,6 +9,7 @@
   "item.pjfmod.sliver_chestplate": "银质胸甲",
   "item.pjfmod.sliver_leggings": "银质护腿",
   "item.pjfmod.sliver_boots": "银质靴子",
+  "item.pjfmod.sliver_cube_spawn_egg": "测试实体刷怪蛋",
   "itemgroup.pjfmod.pjfgroup": "pjf测试组",
   "block.pjfmod.pjfblock": "测试方块Block",
   "block.pjfmod.sliver_block": "银块",
@@ -18,6 +19,11 @@
   "block.pjfmod.sliver_super_block": "测试用超级银棒",
   "block.pjfmod.sliver_chest": "银质储物箱",
   "tips.pjfmod.pjftest": "测试物品提示ItemTips",
-  "generator.pjfmod.sliver_world": "银色世界"
-
+  "generator.pjfmod.sliver_world": "银色世界",
+  "enchantment.pjfmod.frost": "寒冰",
+  "advancements.pjfmod.got_dirt_title": "从泥土开始...",
+  "advancements.pjfmod.got_dirt_description": "获得一块泥土",
+  "advancements.pjfmod.sliver_ingot_title": "银子？Pjfmod！",
+  "advancements.pjfmod.sliver_ingot_description": "发现Pjfmod的银",
+  "effect.pjfmod.exp": "智慧"
 }

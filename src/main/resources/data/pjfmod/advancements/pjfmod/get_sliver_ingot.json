@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "pjfmod:sliver_ingot"
+    },
+    "title": {
+      "translate": "advancements.pjfmod.sliver_ingot_title"
+    },
+    "description": {
+      "translate": "advancements.pjfmod.sliver_ingot_description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pjfmod:pjfmod/root",
+  "criteria": {
+    "get_sliver_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pjfmod:sliver_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_sliver_ingot"
+    ]
+  ]
+}

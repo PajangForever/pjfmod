@@ -9,6 +9,7 @@
   "item.pjfmod.sliver_leggings": "sliver_leggings",
   "item.pjfmod.sliver_boots": "sliver_boots",
   "item.pjfmod.sliver_pickaxe": "sliver_pickaxe",
+  "item.pjfmod.sliver_cube_spawn_egg": "sliver cube spawn egg",
   "itemgroup.pjfmod.pjfgroup": "pjf testing group",
   "block.pjfmod.pjfblock": "test block for pjf",
   "block.pjfmod.sliver_block": "block of sliver",
@@ -18,5 +19,11 @@
   "block.pjfmod.sliver_chest": "sliver chest",
   "block.pjfmod.sliver_super_block": "Super Sliver Stick",
   "tips.pjfmod.pjftest": "Testing ItemTips",
-  "generator.pjfmod.sliver_world": "Sliver World"
+  "generator.pjfmod.sliver_world": "Sliver World",
+  "enchantment.pjfmod.frost": "Frost",
+  "advancements.pjfmod.got_dirt_title": "Dirty Beginning!",
+  "advancements.pjfmod.got_dirt_description": "Got a dirt to start travelling.",
+  "advancements.pjfmod.sliver_ingot_title": "First Sliver for Pjfmod!",
+  "advancements.pjfmod.sliver_ingot_description": "You have got your first item in Pjfmod!",
+  "effect.pjfmod.exp": "Experiencing"
 }
