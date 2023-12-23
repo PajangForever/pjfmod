@@ -12,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+import static name.pjfmod.Pjfmod.STILL_SLIVER;
 import static name.pjfmod.zhuCeXiangMu.FangKuaiZhuCe.SLIVER_CROP_BLOCK;
 import static name.pjfmod.zhuCeXiangMu.ShiTiZhuCe.SLIVER_CUBE;
 
@@ -58,6 +59,9 @@ public class WuPinZhuCe {
             WuPinZuZhuCe.PJFGROUP);
     public static final Item SLIVER_CUBE_SPAWN_EGG=registerItem("sliver_cube_spawn_egg",
             new SpawnEggItem(SLIVER_CUBE, 0x000000, 0xffffff, new FabricItemSettings()),
+            WuPinZuZhuCe.PJFGROUP);
+    public static final Item SLIVER_BUCKET=registerItem("sliver_bucket",
+            new BucketItem(STILL_SLIVER, new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1)),
             WuPinZuZhuCe.PJFGROUP);
 
     public static <T extends Item> T registerItem(String name, T item, ItemGroup... itemGroups) {

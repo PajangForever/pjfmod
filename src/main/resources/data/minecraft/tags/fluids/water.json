@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values":
+  [
+    "pjfmod:fluid_sliver",
+    "pjfmod:flowing_fluid_sliver"
+  ]
+}
